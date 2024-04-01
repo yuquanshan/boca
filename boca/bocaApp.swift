@@ -9,12 +9,34 @@ import SwiftUI
 
 @main
 struct bocaApp: App {
-    let persistenceController = PersistenceController.shared
+    @StateObject private var store = BookStore()
+    @State private var errorWrapper: ErrorWrapper?
 
     var body: some Scene {
         WindowGroup {
-            ContentView()
-                .environment(\.managedObjectContext, persistenceController.container.viewContext)
+            BooksView(books: $store.books) {
+                Task {
+                    do {
+                        try await store.save(scrums: store.books)
+                    } catch {
+                        errorWrapper = ErrorWrapper(error: error,
+                                                    guidance: "Try again later.")
+                    }
+                }
+            }
+            .task {
+                do {
+                    try await store.load()
+                } catch {
+                    errorWrapper = ErrorWrapper(error: error,
+                                                guidance: "Scrumdinger will load sample data and continue.")
+                }
+            }
+            .sheet(item: $errorWrapper) {
+                store.books = Book.emptyBooks
+            } content: { wrapper in
+                ErrorView(errorWrapper: wrapper)
+            }
         }
     }
 }

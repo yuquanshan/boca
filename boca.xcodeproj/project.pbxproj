@@ -13,6 +13,21 @@
 		CA77E3132BBA279F007B65FD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA77E3122BBA279F007B65FD /* Preview Assets.xcassets */; };
 		CA77E3152BBA279F007B65FD /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA77E3142BBA279F007B65FD /* Persistence.swift */; };
 		CA77E3182BBA279F007B65FD /* boca.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CA77E3162BBA279F007B65FD /* boca.xcdatamodeld */; };
+		CA77E3212BBA288B007B65FD /* Book.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA77E3202BBA288B007B65FD /* Book.swift */; };
+		CA77E3232BBA2985007B65FD /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA77E3222BBA2985007B65FD /* Theme.swift */; };
+		CA77E3252BBA31A6007B65FD /* NewBookSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA77E3242BBA31A6007B65FD /* NewBookSheet.swift */; };
+		CA77E3272BBA3721007B65FD /* BookEditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA77E3262BBA3721007B65FD /* BookEditView.swift */; };
+		CA77E3292BBA3844007B65FD /* ThemeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA77E3282BBA3844007B65FD /* ThemeView.swift */; };
+		CA77E32B2BBA3879007B65FD /* ThemePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA77E32A2BBA3879007B65FD /* ThemePicker.swift */; };
+		CA77E32D2BBA3C1B007B65FD /* WordEditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA77E32C2BBA3C1B007B65FD /* WordEditView.swift */; };
+		CA77E32F2BBA3D85007B65FD /* NewWordSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA77E32E2BBA3D85007B65FD /* NewWordSheet.swift */; };
+		CA77E3312BBA3F6D007B65FD /* WordsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA77E3302BBA3F6D007B65FD /* WordsView.swift */; };
+		CA77E3332BBA40B6007B65FD /* WordCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA77E3322BBA40B6007B65FD /* WordCardView.swift */; };
+		CA77E3352BBA4C5B007B65FD /* BooksView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA77E3342BBA4C5B007B65FD /* BooksView.swift */; };
+		CA77E3372BBA4CAC007B65FD /* BookCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA77E3362BBA4CAC007B65FD /* BookCardView.swift */; };
+		CA77E3392BBA4FA1007B65FD /* BookStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA77E3382BBA4FA1007B65FD /* BookStore.swift */; };
+		CA77E33B2BBA51CA007B65FD /* ErrorWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA77E33A2BBA51CA007B65FD /* ErrorWrapper.swift */; };
+		CA77E33D2BBA5267007B65FD /* ErrorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA77E33C2BBA5267007B65FD /* ErrorView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +38,21 @@
 		CA77E3122BBA279F007B65FD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		CA77E3142BBA279F007B65FD /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		CA77E3172BBA279F007B65FD /* boca.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = boca.xcdatamodel; sourceTree = "<group>"; };
+		CA77E3202BBA288B007B65FD /* Book.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Book.swift; sourceTree = "<group>"; };
+		CA77E3222BBA2985007B65FD /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		CA77E3242BBA31A6007B65FD /* NewBookSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewBookSheet.swift; sourceTree = "<group>"; };
+		CA77E3262BBA3721007B65FD /* BookEditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookEditView.swift; sourceTree = "<group>"; };
+		CA77E3282BBA3844007B65FD /* ThemeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeView.swift; sourceTree = "<group>"; };
+		CA77E32A2BBA3879007B65FD /* ThemePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemePicker.swift; sourceTree = "<group>"; };
+		CA77E32C2BBA3C1B007B65FD /* WordEditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordEditView.swift; sourceTree = "<group>"; };
+		CA77E32E2BBA3D85007B65FD /* NewWordSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewWordSheet.swift; sourceTree = "<group>"; };
+		CA77E3302BBA3F6D007B65FD /* WordsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordsView.swift; sourceTree = "<group>"; };
+		CA77E3322BBA40B6007B65FD /* WordCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordCardView.swift; sourceTree = "<group>"; };
+		CA77E3342BBA4C5B007B65FD /* BooksView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BooksView.swift; sourceTree = "<group>"; };
+		CA77E3362BBA4CAC007B65FD /* BookCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookCardView.swift; sourceTree = "<group>"; };
+		CA77E3382BBA4FA1007B65FD /* BookStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookStore.swift; sourceTree = "<group>"; };
+		CA77E33A2BBA51CA007B65FD /* ErrorWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorWrapper.swift; sourceTree = "<group>"; };
+		CA77E33C2BBA5267007B65FD /* ErrorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,12 +85,24 @@
 		CA77E30A2BBA279D007B65FD /* boca */ = {
 			isa = PBXGroup;
 			children = (
+				CA77E31F2BBA282C007B65FD /* Models */,
 				CA77E30B2BBA279D007B65FD /* bocaApp.swift */,
 				CA77E30D2BBA279D007B65FD /* ContentView.swift */,
 				CA77E30F2BBA279F007B65FD /* Assets.xcassets */,
 				CA77E3142BBA279F007B65FD /* Persistence.swift */,
 				CA77E3162BBA279F007B65FD /* boca.xcdatamodeld */,
 				CA77E3112BBA279F007B65FD /* Preview Content */,
+				CA77E3242BBA31A6007B65FD /* NewBookSheet.swift */,
+				CA77E3262BBA3721007B65FD /* BookEditView.swift */,
+				CA77E3282BBA3844007B65FD /* ThemeView.swift */,
+				CA77E32A2BBA3879007B65FD /* ThemePicker.swift */,
+				CA77E32C2BBA3C1B007B65FD /* WordEditView.swift */,
+				CA77E32E2BBA3D85007B65FD /* NewWordSheet.swift */,
+				CA77E3302BBA3F6D007B65FD /* WordsView.swift */,
+				CA77E3322BBA40B6007B65FD /* WordCardView.swift */,
+				CA77E3342BBA4C5B007B65FD /* BooksView.swift */,
+				CA77E3362BBA4CAC007B65FD /* BookCardView.swift */,
+				CA77E33C2BBA5267007B65FD /* ErrorView.swift */,
 			);
 			path = boca;
 			sourceTree = "<group>";
@@ -71,6 +113,17 @@
 				CA77E3122BBA279F007B65FD /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		CA77E31F2BBA282C007B65FD /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				CA77E3202BBA288B007B65FD /* Book.swift */,
+				CA77E3222BBA2985007B65FD /* Theme.swift */,
+				CA77E3382BBA4FA1007B65FD /* BookStore.swift */,
+				CA77E33A2BBA51CA007B65FD /* ErrorWrapper.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -143,9 +196,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CA77E32F2BBA3D85007B65FD /* NewWordSheet.swift in Sources */,
 				CA77E3152BBA279F007B65FD /* Persistence.swift in Sources */,
+				CA77E33D2BBA5267007B65FD /* ErrorView.swift in Sources */,
+				CA77E3272BBA3721007B65FD /* BookEditView.swift in Sources */,
+				CA77E3312BBA3F6D007B65FD /* WordsView.swift in Sources */,
+				CA77E3392BBA4FA1007B65FD /* BookStore.swift in Sources */,
 				CA77E30E2BBA279D007B65FD /* ContentView.swift in Sources */,
+				CA77E32B2BBA3879007B65FD /* ThemePicker.swift in Sources */,
 				CA77E3182BBA279F007B65FD /* boca.xcdatamodeld in Sources */,
+				CA77E3352BBA4C5B007B65FD /* BooksView.swift in Sources */,
+				CA77E3252BBA31A6007B65FD /* NewBookSheet.swift in Sources */,
+				CA77E3332BBA40B6007B65FD /* WordCardView.swift in Sources */,
+				CA77E3232BBA2985007B65FD /* Theme.swift in Sources */,
+				CA77E33B2BBA51CA007B65FD /* ErrorWrapper.swift in Sources */,
+				CA77E3212BBA288B007B65FD /* Book.swift in Sources */,
+				CA77E32D2BBA3C1B007B65FD /* WordEditView.swift in Sources */,
+				CA77E3372BBA4CAC007B65FD /* BookCardView.swift in Sources */,
+				CA77E3292BBA3844007B65FD /* ThemeView.swift in Sources */,
 				CA77E30C2BBA279D007B65FD /* bocaApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
