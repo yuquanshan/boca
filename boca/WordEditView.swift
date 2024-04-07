@@ -9,12 +9,34 @@ import SwiftUI
 
 struct WordEditView: View {
     @Binding var word: Book.Word
+    @State private var newSentence = ""
     var body: some View {
         Form {
             Section(header: Text("Word Info")) {
                 TextField("Word", text: $word.word)
-                TextField("Explain", text: $word.explain)
-                TextField("Sentence", text: $word.sentence)
+            }
+            Section(header: Text("Explain")) {
+                TextField("Explain", text: $word.explain, axis: .vertical)
+            }
+            Section(header: Text("Examples")) {
+                ForEach(word.sentences) {sentence in Text(sentence.content)
+                }.onDelete { indices in
+                    word.sentences.remove(atOffsets: indices)
+                }
+                HStack {
+                    TextField("New Sentence", text: $newSentence, axis: .vertical)
+                    Button(action: {
+                        withAnimation {
+                            word.sentences.append(Book.Sentence(content: newSentence))
+                            newSentence = ""
+                        }
+                    }) {
+                        Image(systemName: "plus.circle.fill")
+                    }
+                    .disabled(newSentence.isEmpty)
+                }
+            }
+            Section(header: Text("Location")){
                 TextField("Location", text: $word.location)
             }
         }

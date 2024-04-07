@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		CA77E30C2BBA279D007B65FD /* bocaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA77E30B2BBA279D007B65FD /* bocaApp.swift */; };
+		CA77E30C2BBA279D007B65FD /* BocaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA77E30B2BBA279D007B65FD /* BocaApp.swift */; };
 		CA77E30E2BBA279D007B65FD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA77E30D2BBA279D007B65FD /* ContentView.swift */; };
 		CA77E3102BBA279F007B65FD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA77E30F2BBA279F007B65FD /* Assets.xcassets */; };
 		CA77E3132BBA279F007B65FD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA77E3122BBA279F007B65FD /* Preview Assets.xcassets */; };
@@ -28,11 +28,14 @@
 		CA77E3392BBA4FA1007B65FD /* BookStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA77E3382BBA4FA1007B65FD /* BookStore.swift */; };
 		CA77E33B2BBA51CA007B65FD /* ErrorWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA77E33A2BBA51CA007B65FD /* ErrorWrapper.swift */; };
 		CA77E33D2BBA5267007B65FD /* ErrorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA77E33C2BBA5267007B65FD /* ErrorView.swift */; };
+		CAA2ED862BBA77A300D93C46 /* EditBookSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAA2ED852BBA77A300D93C46 /* EditBookSheet.swift */; };
+		CAF446402BC27172004C46F6 /* WordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAF4463F2BC27172004C46F6 /* WordView.swift */; };
+		CAF446422BC279DD004C46F6 /* EditWordSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAF446412BC279DD004C46F6 /* EditWordSheet.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		CA77E3082BBA279D007B65FD /* boca.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = boca.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		CA77E30B2BBA279D007B65FD /* bocaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bocaApp.swift; sourceTree = "<group>"; };
+		CA77E3082BBA279D007B65FD /* Boca.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Boca.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA77E30B2BBA279D007B65FD /* BocaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BocaApp.swift; sourceTree = "<group>"; };
 		CA77E30D2BBA279D007B65FD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		CA77E30F2BBA279F007B65FD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CA77E3122BBA279F007B65FD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -53,6 +56,9 @@
 		CA77E3382BBA4FA1007B65FD /* BookStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookStore.swift; sourceTree = "<group>"; };
 		CA77E33A2BBA51CA007B65FD /* ErrorWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorWrapper.swift; sourceTree = "<group>"; };
 		CA77E33C2BBA5267007B65FD /* ErrorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorView.swift; sourceTree = "<group>"; };
+		CAA2ED852BBA77A300D93C46 /* EditBookSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditBookSheet.swift; sourceTree = "<group>"; };
+		CAF4463F2BC27172004C46F6 /* WordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordView.swift; sourceTree = "<group>"; };
+		CAF446412BC279DD004C46F6 /* EditWordSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditWordSheet.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,7 +83,7 @@
 		CA77E3092BBA279D007B65FD /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				CA77E3082BBA279D007B65FD /* boca.app */,
+				CA77E3082BBA279D007B65FD /* Boca.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -86,7 +92,7 @@
 			isa = PBXGroup;
 			children = (
 				CA77E31F2BBA282C007B65FD /* Models */,
-				CA77E30B2BBA279D007B65FD /* bocaApp.swift */,
+				CA77E30B2BBA279D007B65FD /* BocaApp.swift */,
 				CA77E30D2BBA279D007B65FD /* ContentView.swift */,
 				CA77E30F2BBA279F007B65FD /* Assets.xcassets */,
 				CA77E3142BBA279F007B65FD /* Persistence.swift */,
@@ -103,6 +109,8 @@
 				CA77E3342BBA4C5B007B65FD /* BooksView.swift */,
 				CA77E3362BBA4CAC007B65FD /* BookCardView.swift */,
 				CA77E33C2BBA5267007B65FD /* ErrorView.swift */,
+				CAA2ED852BBA77A300D93C46 /* EditBookSheet.swift */,
+				CAF446412BC279DD004C46F6 /* EditWordSheet.swift */,
 			);
 			path = boca;
 			sourceTree = "<group>";
@@ -122,6 +130,7 @@
 				CA77E3222BBA2985007B65FD /* Theme.swift */,
 				CA77E3382BBA4FA1007B65FD /* BookStore.swift */,
 				CA77E33A2BBA51CA007B65FD /* ErrorWrapper.swift */,
+				CAF4463F2BC27172004C46F6 /* WordView.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -129,9 +138,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		CA77E3072BBA279D007B65FD /* boca */ = {
+		CA77E3072BBA279D007B65FD /* Boca */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = CA77E31B2BBA279F007B65FD /* Build configuration list for PBXNativeTarget "boca" */;
+			buildConfigurationList = CA77E31B2BBA279F007B65FD /* Build configuration list for PBXNativeTarget "Boca" */;
 			buildPhases = (
 				CA77E3042BBA279D007B65FD /* Sources */,
 				CA77E3052BBA279D007B65FD /* Frameworks */,
@@ -141,9 +150,9 @@
 			);
 			dependencies = (
 			);
-			name = boca;
+			name = Boca;
 			productName = boca;
-			productReference = CA77E3082BBA279D007B65FD /* boca.app */;
+			productReference = CA77E3082BBA279D007B65FD /* Boca.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -161,7 +170,7 @@
 					};
 				};
 			};
-			buildConfigurationList = CA77E3032BBA279C007B65FD /* Build configuration list for PBXProject "boca" */;
+			buildConfigurationList = CA77E3032BBA279C007B65FD /* Build configuration list for PBXProject "Boca" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -174,7 +183,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				CA77E3072BBA279D007B65FD /* boca */,
+				CA77E3072BBA279D007B65FD /* Boca */,
 			);
 		};
 /* End PBXProject section */
@@ -197,10 +206,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				CA77E32F2BBA3D85007B65FD /* NewWordSheet.swift in Sources */,
+				CAA2ED862BBA77A300D93C46 /* EditBookSheet.swift in Sources */,
+				CAF446402BC27172004C46F6 /* WordView.swift in Sources */,
 				CA77E3152BBA279F007B65FD /* Persistence.swift in Sources */,
 				CA77E33D2BBA5267007B65FD /* ErrorView.swift in Sources */,
 				CA77E3272BBA3721007B65FD /* BookEditView.swift in Sources */,
 				CA77E3312BBA3F6D007B65FD /* WordsView.swift in Sources */,
+				CAF446422BC279DD004C46F6 /* EditWordSheet.swift in Sources */,
 				CA77E3392BBA4FA1007B65FD /* BookStore.swift in Sources */,
 				CA77E30E2BBA279D007B65FD /* ContentView.swift in Sources */,
 				CA77E32B2BBA3879007B65FD /* ThemePicker.swift in Sources */,
@@ -214,7 +226,7 @@
 				CA77E32D2BBA3C1B007B65FD /* WordEditView.swift in Sources */,
 				CA77E3372BBA4CAC007B65FD /* BookCardView.swift in Sources */,
 				CA77E3292BBA3844007B65FD /* ThemeView.swift in Sources */,
-				CA77E30C2BBA279D007B65FD /* bocaApp.swift in Sources */,
+				CA77E30C2BBA279D007B65FD /* BocaApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -401,7 +413,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		CA77E3032BBA279C007B65FD /* Build configuration list for PBXProject "boca" */ = {
+		CA77E3032BBA279C007B65FD /* Build configuration list for PBXProject "Boca" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				CA77E3192BBA279F007B65FD /* Debug */,
@@ -410,7 +422,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		CA77E31B2BBA279F007B65FD /* Build configuration list for PBXNativeTarget "boca" */ = {
+		CA77E31B2BBA279F007B65FD /* Build configuration list for PBXNativeTarget "Boca" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				CA77E31C2BBA279F007B65FD /* Debug */,
