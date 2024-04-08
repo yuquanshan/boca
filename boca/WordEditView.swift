@@ -19,7 +19,7 @@ struct WordEditView: View {
                 TextField("Explain", text: $word.explain, axis: .vertical)
             }
             Section(header: Text("Examples")) {
-                ForEach(word.sentences) {sentence in Text(sentence.content)
+                ForEach($word.sentences) {$sentence in TextField("", text:$sentence.content)
                 }.onDelete { indices in
                     word.sentences.remove(atOffsets: indices)
                 }
